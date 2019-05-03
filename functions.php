@@ -13,3 +13,6 @@ function my_theme_enqueue_styles()
         false
     );
 }
+
+function twentynineteen_posted_by()
+{ }
