@@ -16,3 +16,9 @@ function my_theme_enqueue_styles()
 
 function twentynineteen_posted_by()
 { }
+
+// remove wp version from head
+remove_action('wp_head', 'wp_generator');
+
+// remove version from rss
+add_filter('the_generator', '__return_empty_string');
