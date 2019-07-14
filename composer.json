@@ -1,0 +1,22 @@
+{
+    "name": "sw-child-theme",
+    "description": "WordPress theme for my stuff",
+    "type": "project",
+    "license": "",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {},
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packagist.org"
+        },
+        {
+            "packagist": false
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^7.5",
+        "lucatume/wp-browser": "^2.2"
+    }
+}
