@@ -28,3 +28,4 @@ add this to the composer.json
 - If Selenium isn't running properly, install Java SDK https://www.oracle.com/technetwork/java/javase/downloads/index.html
 - Create a new db for acceptance tests, ex: newdbname_codeception
 - Create a db dump and put it in tests/\_data
+- Make sure to setup the wp-config and options for database switching during testing https://wpbrowser.wptestkit.dev/summary/modules/wpdb#automatically-changing-database-based-on-the-browser-user-agent

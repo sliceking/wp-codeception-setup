@@ -27,3 +27,10 @@ modules:
       browser: chrome
       host: %CHROMEDRIVER_HOST%
       port: %CHROMEDRIVER_PORT%
+      capabilities:
+        # Used in more recent releases of Selenium.
+        'goog:chromeOptions':
+          args: ['--no-sandbox', '--disable-gpu', '--user-agent=wp-browser']
+        # Support the old format for back-compatibility purposes.
+        'chromeOptions':
+          args: ['--no-sandbox', '--disable-gpu', '--user-agent=wp-browser']
