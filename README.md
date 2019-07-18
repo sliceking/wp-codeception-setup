@@ -1,6 +1,4 @@
-# sw-child-theme
-
-small stuff for my wp blog
+small stuff for wp
 
 ## testing
 
